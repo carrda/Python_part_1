@@ -3,13 +3,16 @@
 import random
 
 while True:
+
     my_random_number = random.randint(1, 10)
     print("I\'m thinking of a number between 1 and 10.")
     guessRemain = 5
     exitLoop = False
+    
     while guessRemain > 0 and exitLoop == False:
         print("You have " + str(guessRemain) + " guesses left.")
         myGuess = int(input("What\'s the number? "))
+
         if myGuess == my_random_number:
             print("Yes! You win!")
             exitLoop= True

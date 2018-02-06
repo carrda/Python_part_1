@@ -1,11 +1,13 @@
 name = input("What is your name? ")
 print("Hello, " + name + "!")
 print("HELLO, " + name.upper() + "!")
+
 print("Please fill in th eblanks below:")
 print("----(name)---\'s favorite subject in school is ----(subject)----.")
 name2 = input("What is name? ")
 subject = input("What is subject? ")
 print(name2 + "\'s favorite subject in school is " + subject + ".")
+
 dayNum = int(input("Day (0-6)? "))
 if dayNum == 0:
     print("Sunday")
