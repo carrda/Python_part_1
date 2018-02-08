@@ -11,7 +11,7 @@ for index in range(0, len(cipherText)):
         convertedOrd = (loweredOrd + 13) % 26
         convertedText += chr(convertedOrd + 96)
 
-print("Ciphertext is :" + cipherText)
-print("Plaintext is :" + convertedText)
+print("Ciphertext is: " + cipherText)
+print("Plaintext is: " + convertedText)
 
         
