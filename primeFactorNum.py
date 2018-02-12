@@ -1,7 +1,6 @@
 # Find the 10,001st (or nth) prime number
 
-which_Prime = 6
-
+which_Prime = 10001
 prime_Counter = 2
 
 n = 4
@@ -21,11 +20,11 @@ def is_prime(n):
     return True
 
 
-while prime_Counter <= which_Prime:
+while prime_Counter < which_Prime:
     if is_prime(n) == True:
         prime_Counter += 1
   
     n = n + 1
 
     
-print("The {} number prime number is: {}".format(prime_Counter, n - 1)
+print("The {} number prime number is: {}".format(prime_Counter, n - 1))

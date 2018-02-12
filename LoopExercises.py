@@ -30,4 +30,7 @@ boxWidth = int(input("Width? "))
 boxHeight = int(input("Height? ")
 
 for iHeight in range(1, boxHeight + 1):
-    for iWidth in range
+    if iHeight == 1 or iHeight == boxHeight:
+        print('*' * boxWidth)
+    else:
+        print('*' + (boxWidth - 2) * ' ' + '*')
