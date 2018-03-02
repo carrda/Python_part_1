@@ -43,4 +43,8 @@ for index in range(0, len(ramitsFriends)):
 
 print("Jan's 2nd interest is: " + ramit['friends'][1]['interests'][1])
 
+# histogram function
+
+
+
 

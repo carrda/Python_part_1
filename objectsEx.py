@@ -28,6 +28,7 @@ class Person:
 
 sonny = Person('Sonny', 'sonny@hotmail.com', '483-483-4948')
 jordan = Person('Jordan', 'jordan@aol.com', '495-586-3456')
+dee_ann = Person('Dee Ann', 'deeann@gmail.com', '486-333-0955')
 
 # have sonny greet jordan & jordan greet sonny using greet method
 
